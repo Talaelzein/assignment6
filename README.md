@@ -55,8 +55,6 @@ git clone https://github.com/Talaelzein/assignment6.git
 cd assignment6
 ```
 
-Replace `YOUR-USERNAME` with the GitHub repository owner's username.
-
 Alternatively, extract the submitted ZIP file and open a terminal in the `assignment6` directory.
 
 ### 2. Install dependencies
@@ -64,15 +62,12 @@ Alternatively, extract the submitted ZIP file and open a terminal in the `assign
 ```bash
 npm install
 ```
-
 This installs the packages listed in `package.json`, including Express and dotenv.
-
 For a reproducible installation using `package-lock.json`, you may use:
 
 ```bash
 npm ci
 ```
-
 On Windows PowerShell, use `npm.cmd` instead of `npm` if PowerShell script execution is restricted.
 
 ### 3. Configure environment variables
